@@ -9,11 +9,11 @@ const Sequelize  = require('sequelize');
 const Op         = Sequelize.Op;
 const Handlebars = require('handlebars'); // Importa o Handlebars
 
-const PORT = process.env.PORT || 3000;
+// const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, function() {
-  console.log(`Express is working in ${PORT} port`);
-});
+// app.listen(PORT, function() {
+//   console.log(`Express is working in ${PORT} port`);
+// });
 
 // body parser
 app.use(bodyParser.urlencoded({extended: false}));
