@@ -1,0 +1,35 @@
+  <div id="add-form-container" class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">Complete the forms to publish your job</h1>
+      </div>
+      <div id="form-box" class="col-md-12">
+        <h2>Make the labels clear to find faster your dev</h2>
+        <form action="/jobs/add" method="POST">
+          <div class="form-group">
+            <label for="title">Job title:</label>
+            <input type="text" class="form-control" id="title" name="title" placeholder="Type the job title" required>
+            <small id="titlehelp" class="form-text text-muted">The title is very important, be clear and objective</small>
+          </div>
+          <div class="form-group">
+            <label for="description">Job description:</label>
+            <textarea type="text" class="form-control" id="descripton" name="description" placeholder="Type the job description" required></textarea>
+          </div>          
+          <div class="form-group">
+            <label for="company">Company:</label>
+            <input type="text" class="form-control" id="company" name="company" placeholder="Type the company name" required>
+          </div>                  
+          <div class="form-group">
+            <label for="email">E-mail for contact:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Type an e-mail for contact" required>
+          </div>            
+          <div class="form-group">
+            <label for="salary">Job salary:</label>
+            <input type="text" class="form-control" id="salary" name="salary" placeholder="Type the job salary" required>
+          </div>        
+          <input type="hidden" name="new_job" value="1">  
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>

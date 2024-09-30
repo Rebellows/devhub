@@ -1,0 +1,26 @@
+{
+  "name": "devhub",
+  "version": "1.0.0",
+  "description": "An application to support devs search for work",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev",
+    "seach",
+    "job"
+  ],
+  "author": "GauterX",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "optionalDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
