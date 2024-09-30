@@ -76,3 +76,5 @@ app.get('/', (req, res) => {
 
 // jobs routes
 app.use('/jobs', require('./routes/jobs'));
+
+module.exports = app;
